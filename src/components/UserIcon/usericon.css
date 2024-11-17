@@ -1,0 +1,46 @@
+.usericon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 30px; 
+    height: 30px; 
+    transition: all 0.3s ease; 
+}
+
+.usericon-avatar {
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%;
+    object-fit: cover;
+    transition: opacity 0.3s ease; 
+}
+
+.usericon-text {
+    font-size: 14px; 
+    font-weight: bold;
+    color: white;
+    background-color: #2b963a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%;
+}
+
+.user-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 149, 0);
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.user-status.available {
+    background-color: green;
+}
