@@ -15,7 +15,7 @@
 ### Install Packages
 
 ```sh
-yarn
+npm install
 ```
 
 Installs all the dependencies and sets up the `node_modules` folder.
@@ -25,7 +25,7 @@ Installs all the dependencies and sets up the `node_modules` folder.
 ### Run Local Deployment
 
 ```sh
-yarn start
+npm start
 ```
 
 Runs the app in development mode.  
@@ -37,7 +37,7 @@ The page will reload if you make edits.
 ### Build
 
 ```sh
-yarn build
+npm run build
 ```
 
 Builds the app for production in the `build` folder.  
@@ -48,16 +48,13 @@ The app is ready to be deployed.
 
 ### Additional Commands
 
-#### `yarn test`
+#### `npm test`
 
 Launches the test runner in interactive watch mode.
 
-#### `yarn eject`
+#### `npm eject`
 
 **Note:** This is a one-way operation. Once you `eject`, you can’t revert it.  
 This command removes the single build dependency and copies all configuration files (e.g., webpack, Babel, ESLint) directly into your project for full control.  
-<<<<<<< HEAD
 Use this if you need to customize the configuration extensively.
-=======
-Use this if you need to customize the configuration extensively.
->>>>>>> e5c47de731937fd81b841430be85987a4c2ba462
+
